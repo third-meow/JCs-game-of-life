@@ -99,7 +99,7 @@ fn main() {
     for i in 0..ENV_HEIGHT {
         env.push(Vec::new());
         for _ in 0..ENV_WIDTH {
-            env[i].push(rng.gen_bool(0.74));
+            env[i].push(rng.gen_bool(0.24));
             //env[i].push(false);
         }
     }
